@@ -24,7 +24,7 @@ theater
     .addActor('header')
     .addScene('header:Hi, I\'m Omar Hafez', 1600)
     .addScene('me:I always thought life was this big tough game where you level up, acquire skills, and build things that ultimately help others.', 2000)
-    .addScene(' Elon Musk once said the best metric to strive for is to:', 1600)
+    .addScene(' Elon Musk once said the best metric to strive for is to -', 1600)
     .addActor('me1')
     .addScene('me1: 1. Ask yourself if your work is changing the industry landscape and,', 1400)
     .addActor('me2')
