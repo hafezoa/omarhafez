@@ -1,0 +1,25 @@
+{
+  "name": "omar-hafez",
+  "version": "1.0.0",
+  "description": "My tiny house on the internet.",
+  "main": "index.html",
+  "scripts": {
+    "start": "babel src --presets es2015 --out-dir build -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafezoa/omar-hafez.git"
+  },
+  "author": "Omar Hafez (hafezoa@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafezoa/omar-hafez/issues"
+  },
+  "homepage": "https://github.com/hafezoa/omar-hafez#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "lite-server": "^2.2.2"
+  }
+}

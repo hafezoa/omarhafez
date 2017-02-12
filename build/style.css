@@ -1,0 +1,70 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box; /* width and height now includes the size of borders + padding */
+}
+
+html, body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /*background-color: rebeccapurple;
+  background-color: goldenrod;*/
+  background-color: lemonchiffon;
+  background-color: #F5F3E2;
+  font-family: courier-prime, monospace;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+body {
+  height: 100vh;
+}
+
+section {
+  padding: 4rem;
+}
+
+ol {
+  padding: 2rem 4rem;
+}
+
+footer {
+  background-color: rgba(236, 123, 26, 0.8);
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 0;
+}
+
+.social-media {
+  padding: 1rem; /* avoid margins when possible */
+}
+
+.social-media a {
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.social-media a:HOVER {
+  color: rgba(189, 31, 25, 0.8);
+  -webkit-transition: ease-in 0.4s;
+  -ms-transition: ease-in 0.4s;
+  -o-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+}
+
+
+/*ol li::first-letter {
+  text-transform: capitalize;
+}*/
