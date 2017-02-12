@@ -9,7 +9,6 @@
 
 html {
     box-sizing: border-box;
-    /* width and height now includes the size of borders + padding */
 }
 
 html, body {
